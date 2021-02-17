@@ -26,15 +26,8 @@ def dac (channel, voltage):
 
 camera = cv2.VideoCapture('nvarguscamerasrc ! video/x-raw(memory:NVMM), width=400, height=400, format=(string)NV12, framerate=(fraction)20/1 ! nvvidconv ! video/x-raw, format=(string)BGRx ! videoconvert ! video/x-raw, format=(string)BGR ! appsink', cv2.CAP_GSTREAMER)
 
-print ("ok4")
-dac (first, 1740)
-#dac (second, 440)
-
-x=145
-radius = 8
-
 print ("ok5")
-axi_z=640
+axi_z=1330
 while 1: 
  time.sleep(0.5)
  (grabbed, frame) = camera.read()
@@ -43,20 +36,19 @@ while 1:
  frames=frame
   
  dac (second, axi_z)
- dac (first, 1980)
+ dac (first, 2600)
 
  frame = cv2.inRange(frame, colorLower, colorUpper)
  cnts = cv2.findContours(frame.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
 
  for c in cnts:
-  print ("c",c)
-  print ("cnts",cnts[0])
   ((x, y), radius) = cv2.minEnclosingCircle(cnts[0])
 #  print (radius)
 #  cv2.imshow("Frame", frame)
 #  key = cv2.waitKey(1) & 0xFF
   if radius > 0:
    cv2.circle(frames, (int(x), int(y)), int(2*radius),(0, 255, 255), 2)
+   print ("x,y",x,y)
    cv2.putText(frames, 'object was found', (int(x) , int(y)), cv2.FONT_ITALIC, 0.5, 255)
  
    cv2.imshow("Frames", frames)
@@ -66,3 +58,4 @@ while 1:
 
 cap.release()
 cv2.destroyAllWindows()
+
