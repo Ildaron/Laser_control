@@ -35,14 +35,22 @@ while 1:
   #frame = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
  frames=frame
   
- dac (second, axi_z)
- dac (first, 2600)
+# dac (second, axi_z)
+# dac (first, 2600)
 
  frame = cv2.inRange(frame, colorLower, colorUpper)
  cnts = cv2.findContours(frame.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
 
  for c in cnts:
   ((x, y), radius) = cv2.minEnclosingCircle(cnts[0])
+   
+   my = 10.2665*x + 246.8017
+   mx = 6.7691*y − 68.7463 
+   
+   
+   dac (first,  mx)
+   dac (second, my)
+   
 #  print (radius)
 #  cv2.imshow("Frame", frame)
 #  key = cv2.waitKey(1) & 0xFF
