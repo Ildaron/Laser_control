@@ -32,6 +32,7 @@ while 1:
  (grabbed, frame) = camera.read()
  cv2.imshow("Frame", frame)
  key = cv2.waitKey(1) & 0xFF
+
  frame = cv2.erode(frame, None, iterations=4)
  frame = cv2.dilate(frame, None, iterations=4)
   #frame = cv2.cvtColor(cv2.UMat(frame), cv2.COLOR_RGB2GRAY)
@@ -40,10 +41,16 @@ while 1:
   
 # dac (second, axi_z)
 # dac (first, 2600)
-
+ (grabbed, frame) = camera.read()
+ cv2.imshow("Frame", frame)
+ 
  frame = cv2.inRange(frame, colorLower, colorUpper)
  cnts = cv2.findContours(frame.copy(), cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)[-2]
  radius = 0
+
+
+
+
  for c in cnts:
   ((x, y), radius) = cv2.minEnclosingCircle(cnts[0])
    
