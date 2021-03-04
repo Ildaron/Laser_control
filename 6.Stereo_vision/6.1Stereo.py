@@ -1,32 +1,63 @@
-  
-import numpy as np
 import cv2
-import matplotlib.pyplot as plt
-
-cap = cv2.VideoCapture(1)
-ret, frame = cap.read()
-gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-cv2.imwrite('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image_left.png',frame)
-cap.release()
-cv2.destroyAllWindows()
-
-cap = cv2.VideoCapture(2)
-ret, frame = cap.read()
-gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-cv2.imwrite('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image_right.png',frame)
-cap.release()
-cv2.destroyAllWindows()
+import numpy as np
 
 
-image = cv2.imread('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image_left.png',0)
-image2 = cv2.imread('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image_right.png',0)
 
-img_wide = 350
-r = float(img_wide) / image.shape[1]
-dim = (img_wide, int(image.shape[0] * r))
-resized = cv2.resize(image, dim, interpolation = cv2.INTER_AREA)
-resized2 = cv2.resize(image2, dim, interpolation = cv2.INTER_AREA)
-stereo = cv2.StereoBM_create(numDisparities=16, blockSize=15)
-disparity = stereo.compute(resized,resized2)
-plt.imshow(disparity,'gray')
-plt.show()
+minDisparity = 0;
+numDisparities = 32;
+blockSize = 1;
+disp12MaxDiff = 2;
+uniquenessRatio = 15;
+speckleWindowSize = 100;
+speckleRange = 5;
+
+stereo = cv2.StereoSGBM_create(minDisparity = minDisparity,
+        numDisparities = numDisparities,
+        blockSize = blockSize,
+        disp12MaxDiff = disp12MaxDiff,
+        uniquenessRatio = uniquenessRatio,
+        speckleWindowSize = speckleWindowSize,
+        speckleRange = speckleRange
+    )
+
+
+
+camera1 = cv2.VideoCapture(1)
+camera2 = cv2.VideoCapture(2)
+while 1:
+ (grabbed, frame1) = camera1.read()
+ (grabbed, frame2) = camera2.read()
+# ret, frame1 = cap1.read()
+# cv2.imwrite('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image1.png',frame1)
+# ret, frame2 = cap2.read()
+# cv2.imwrite('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image2.png',frame2)
+
+
+
+#imgL = image1 = cv2.imread('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image3.jpg',0)
+#$imgR = image2 = cv2.imread('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image4.jpg',0)
+#imgL = cv2.imread('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image1.png',0)
+#imgR  = cv2.imread('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image2.png',0)
+
+
+
+
+
+
+#Setting parameters for StereoSGBM algorithm
+
+
+#Creating an object of StereoSGBM algorithm
+
+# Calculating disparith using the StereoSGBM algorithm
+ disp = stereo.compute(frame1, frame2).astype(np.float32)
+ disp = cv2.normalize(disp,0,255,cv2.NORM_MINMAX)
+#
+# Displaying the disparity map
+
+
+ disp = cv2.erode(disp, None, iterations=1)
+ disp = cv2.dilate(disp, None, iterations=1)
+
+ cv2.imshow("disparity", disp)
+ cv2.waitKey(1)
