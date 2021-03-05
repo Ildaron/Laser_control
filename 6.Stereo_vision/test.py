@@ -111,8 +111,18 @@ camera2 = cv2.VideoCapture(2)
 while 1:
  (grabbed, frame1) = camera1.read()
  (grabbed, frame2) = camera2.read()
+
+ #1 undistort
  img_1_undistorted = cv2.undistort(frame1, mtxL, distL, None, new_mtxL)
  img_2_undistorted = cv2.undistort(frame2, mtxR, distR, None, new_mtxR)
+
+ #2 remap
+# mapxL,mapyL = cv2.initUndistortRectifyMap(mtxL,distL,None,new_mtxL,(w,h),5)
+# mapxR,mapyR = cv2.initUndistortRectifyMap(mtxR,distR,None,new_mtxR,(w,h),5)
+# img_1_undistorted = cv2.remap(img_1_undistorted,mapxL,mapyL,cv2.INTER_LINEAR)
+# img_2_undistorted = cv2.remap(img_2_undistorted,mapxR,mapyR,cv2.INTER_LINEAR)
+
+
  
  disparity_map = stereo.compute(img_1_undistorted, img_2_undistorted)
 
@@ -123,6 +133,12 @@ while 1:
  plt.pause(.0001)
  plt.show()
   
+
+
+
+
+
+
 
 
 
