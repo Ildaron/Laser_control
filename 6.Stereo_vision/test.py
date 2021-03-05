@@ -3,11 +3,9 @@ import cv2
 from matplotlib import pyplot as plt
 from tqdm import tqdm
 
-#img_1 =  cv2.imread("C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/left/img0.png",0)
-#img_2 = cv2.imread("C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/right/img0.png",0)
+img_1 =  cv2.imread("C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/left/img0.png",0)
+img_2 = cv2.imread("C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/right/img0.png",0)
 
-img_1 = image1 = cv2.imread('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image1.png')
-img_2 = image2 = cv2.imread('C:/Users/rakhmatulin/Desktop/jre_new/2021/4.Stereo_vision/programme/image2.png')
 
 #Load camera parameters
 #ret = np.load('./camera_params/ret.npy')
@@ -106,15 +104,25 @@ stereo = cv2.StereoSGBM_create(minDisparity= min_disp,
  P2 =32*3*win_size**2) #32*3*win_size**2)
 #Compute disparity map
 print ("\nComputing the disparity  map...")
-disparity_map = stereo.compute(img_1_downsampled, img_2_downsampled)
+
+
+camera1 = cv2.VideoCapture(1)
+camera2 = cv2.VideoCapture(2)
+while 1:
+ (grabbed, frame1) = camera1.read()
+ (grabbed, frame2) = camera2.read()
+ img_1_undistorted = cv2.undistort(frame1, mtxL, distL, None, new_mtxL)
+ img_2_undistorted = cv2.undistort(frame2, mtxR, distR, None, new_mtxR)
+ 
+ disparity_map = stereo.compute(img_1_undistorted, img_2_undistorted)
 
 #Show disparity map before generating 3D cloud to verify that point cloud will be usable. 
-plt.imshow(disparity_map,'gray')
-plt.show()
+ plt.imshow(disparity_map,'gray')
 
-
-
-
+ plt.ion()
+ plt.pause(.0001)
+ plt.show()
+  
 
 
 
