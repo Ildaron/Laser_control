@@ -17,3 +17,7 @@ python labelImg.py
 
 2. 3. Запуск train
 ! ./darknet detector train data/obj.data yolov4-tiny-custom.cfg yolov4-tiny.conv.29 -dont_show -map
+
+3. Yolo-tiny costum.cng
+здемы мы в двух метсах изменнили класс с 80 до 1
+и изменели количетсво слоев у послденего выхода, сделали 
