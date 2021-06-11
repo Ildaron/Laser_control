@@ -1,10 +1,19 @@
-Runtime -GPU
+Label  https://github.com/tzutalin/labelImg
 
-1. Двигаемся в папку
+pyrcc5 -o libs/resources.py resources.qrc
+python labelImg.py
+
+
+
+
+
+2. Runtime -GPU
+
+2. 1. Двигаемся в папку
 %cd /content/drive/MyDrive/yolov4/darknet
 
-2. Получить разрешение на работу в папке
+2. 2. Получить разрешение на работу в папке
 !chmod +x ./darknet
 
-3. Запуск train
+2. 3. Запуск train
 ! ./darknet detector train data/obj.data yolov4-tiny-custom.cfg yolov4-tiny.conv.29 -dont_show -map
