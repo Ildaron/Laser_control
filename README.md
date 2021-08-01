@@ -21,8 +21,7 @@ The principle of operation
 Single board computer to processes the digital signal from the camera and determines positioning to the object, and transmits the digital signal to the analog display - 3, where digital-to-analog converts the signal to the range of 0-5V. Using a board with an operational amplifier, we get a bipolar voltage - plus and minus 5 V, from which the boards with the motor driver for the galvanometer are powered - 4, from where the signal goes to galvanometers -7. The galvanometer uses mirrors to change the direction of the laser - 6. The system is powered by the power supply - 5. Cameras 2  determine the distance to the object. The camera detects mosquito and transmits data to the galvanometer, which sets the mirrors in the correct position, and then the laser turns on.  
 
 ### Demonstrations
-In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.
-Jetson Nano
+In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.  
 [![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/demonstration.bmp)](https://www.youtube.com/watch?v=2BKtM5cxOik)    
 
 
