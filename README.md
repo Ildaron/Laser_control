@@ -6,6 +6,8 @@ Here I will post information for creating a laser device.
 [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
 
 
+#### General information 
+
 #### Publication and Citation 
 Ildar, R. (2021). Machine vision for low-cost remote control of mosquitoes by power laser. Journal of Real-Time Image Processing   
 availabe [here]( https://www.researchgate.net/publication/349226713_Machine_vision_for_low-cost_remote_control_of_mosquitoes_by_power_laser)    
