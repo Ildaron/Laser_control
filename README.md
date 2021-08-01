@@ -10,7 +10,7 @@ Here I will post information for creating a laser device. I provide this informa
 
 
 ### A warning!!
-# Don't use the power laser!
+### Don't use the power laser!
 The main limiting factor in the development of this technology is the danger of the laser beam hitting the eyes. The laser can enter a blood vessel and clog it, it can get into a blind spot where nerves from all over the eye go to the brain, you can burn out a line of "pixels" And then the damaged retina can begin to flake off, and this is the path to complete and irreversible loss of vision. This is dangerous because a person may not notice at the beginning of damage from a laser hit: there are no pain receptors there, the brain completes objects in damaged areas (remapping of dead pixels), and only when the damaged area becomes large enough person starts to notice that some objects not visible.
 We can develop additional security systems, such as human detection, audio sensors, etc. But in any case, we are not able to make the installation 100% safe, since even a laser can be reflected and damage the eye of a person who is not in the field of view of the device and at a distant distance. Therefore, this technology should not be used at home. 
 My strong recommendation - don't use the power laser! I recommend making a device that will track an object using a safe laser pointer.  
