@@ -1,11 +1,14 @@
 # Laser device for neutralizing - mosquitoes, weeds and pests (in progress)
 Here I will post information for creating a laser device.
 
+-  [A warning!!](https://github.com/Ildaron/Laser_control#a-warning)    
 [General information ](https://github.com/Ildaron/Laser_control#general-information)    
 [Publication and Citation](https://github.com/Ildaron/Laser_control#publication-and-citation)    
 [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
 
+
 ### A warning!!
+
 
 #### General information 
 The principle of operation  
