@@ -5,6 +5,7 @@ Here I will post information for creating a laser device.
 [Publication and Citation](https://github.com/Ildaron/Laser_control#publication-and-citation)    
 [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
 
+### A warning!!
 
 #### General information 
 The principle of operation  
@@ -20,6 +21,7 @@ The mosquito box is located 300 mm from the laser system. The camera detects
 mosquito and transmits data to the galvanometer, which sets the mirrors in the correct position,
 and then the laser turns on.  
 
+### Demonstrations
 
 #### Publication and Citation 
 - Ildar, R. (2021). Machine vision for low-cost remote control of mosquitoes by power laser. Journal of Real-Time Image Processing   
@@ -29,3 +31,4 @@ and then the laser turns on.
 
 #### Contacts
 For any questions write to me by mail - ildar.o2010@yandex.ru  
+
