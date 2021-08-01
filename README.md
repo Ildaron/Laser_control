@@ -8,7 +8,7 @@ Here I will post information for creating a laser device.
 
 #### General information 
 The principle of operation  
-![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/scheme.bmp "general view")
+![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/scheme.bmp "general view")  
 Single board computer Raspberry PI 3 B +, processes the digital signal from the video and determines
 positioning to the object, and transmits the digital signal to the analog display - 3, where digital-to-analog
 the converter converts the signal to the range of 0-5V. Next, using a board with an operational amplifier, we
