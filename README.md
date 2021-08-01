@@ -2,8 +2,8 @@
 Here I will post information for creating a laser device.
 
 -  [A warning!!](https://github.com/Ildaron/Laser_control#a-warning)    
--  [General information ](https://github.com/Ildaron/Laser_control#general-information)    
--  [Demonstrations] (https://github.com/Ildaron/Laser_control#demonstrations)
+-  [General information](https://github.com/Ildaron/Laser_control#general-information)    
+-  [Demonstrations](https://github.com/Ildaron/Laser_control#demonstrations)
 -  [Publication and Citation](https://github.com/Ildaron/Laser_control#publication-and-citation)    
 -  [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
 
