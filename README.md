@@ -3,7 +3,6 @@ Here I will post information for creating a laser device.
 
 
 [Publication and Citation](https://github.com/Ildaron/Laser_control#publication)    
-Contacts
 [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
 
 
