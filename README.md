@@ -53,10 +53,10 @@ At the expense of computer vision, the position of the object in the X, Y plane 
 
 ### Determining the angle of galvanometer mirror
 #### angle of galvanometer mirror theory
-The laser beam obeys all the optical laws of physics, therefore, depending on the design of the galvanometer, the required angle of inclination of the mirror – α, can be calculated through the geometrical formulas. In our case, through the tangent of the angle α, where it is equal to the ratio of the opposing side – X(Y) (position calculated by deep learning) to the adjacent side - Z (calculated by stereo vision).
+The laser beam obeys all the optical laws of physics, therefore, depending on the design of the galvanometer, the required angle of inclination of the mirror – α, can be calculated through the geometrical formulas. In our case, through the tangent of the angle α, where it is equal to the ratio of the opposing side – X(Y) (position calculated by deep learning) to the adjacent side - Z (calculated by stereo vision).  
  ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/Z_position.bmp "general view")  
 
-#### angle of galvanometer mirror practice
+#### angle of galvanometer mirror practice  
 ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/z_practice.bmp "general view")  
  
 ### Demonstrations
