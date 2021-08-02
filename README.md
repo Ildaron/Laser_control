@@ -50,7 +50,7 @@ The laser beam obeys all the optical laws of physics, therefore, depending on th
   ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/Z%20position.bmp "general view")  
 
 #### Z - coordinate practice 
-![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/z%20practice.bmp "general view")  
+![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/z_practice.bmp "general view")  
  
 ### Demonstrations
 In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.  
