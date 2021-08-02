@@ -27,7 +27,13 @@ Single board computer to processes the digital signal from the camera and determ
 ### Galvanometer setting 
 In practice, the maximum deflection angle of the mirrors is set at the factory, but before use, it is necessary to check, for example, according to the documentation, our galvanometer had a step width of 30, but as it turned out we have only 20
 ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/galv_angle.bmp "general view")  
-
+ Maximum and minimum positions of galvanometer mirrors:   
+ a - lower position - 350 for x mirror;   
+ b - upper position - 550 for x mirror;   
+ c - lower position - 00 for y mirror;   
+ d - upper position - 250 for y mirror;  
+ 
+ 
 ### Demonstrations
 In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.  
 [![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/demonstration.bmp)](https://www.youtube.com/watch?v=2BKtM5cxOik)    
