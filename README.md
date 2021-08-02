@@ -26,6 +26,9 @@ The principle of operation
 Single board computer to processes the digital signal from the camera and determines positioning to the object, and transmits the digital signal to the analog display - 3, where digital-to-analog converts the signal to the range of 0-5V. Using a board with an operational amplifier, we get a bipolar voltage - plus and minus 5 V, from which the boards with the motor driver for the galvanometer are powered - 4, from where the signal goes to galvanometers -7. The galvanometer uses mirrors to change the direction of the laser - 6. The system is powered by the power supply - 5. Cameras 2  determine the distance to the object. The camera detects mosquito and transmits data to the galvanometer, which sets the mirrors in the correct position, and then the laser turns on.  
 
 ### Dimensions
+![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/dimension.bmp "general view")    
+1 - PI cameras, 2 - galvanometer, 3 - Jetson nano, 4 - adjusting the position to the object, 5 - laser device, 6 - power supply, 7 - galvanometer driver boards, 8 - analog conversion boards  
+
 
 ### Galvanometer setting 
 In practice, the maximum deflection angle of the mirrors is set at the factory, but before use, it is necessary to check, for example, according to the documentation, our galvanometer had a step width of 30, but as it turned out we have only 20
