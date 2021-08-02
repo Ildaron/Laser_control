@@ -44,7 +44,7 @@ In practice, the maximum deflection angle of the mirrors is set at the factory, 
 ### Determining the coordinates of an object
 
 #### X,Y - coordinate 
-![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/detect%20moment.bmp "Example of result for Fast Fourier  transform")
+![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/detect_moment.bmp "Example of result for Fast Fourier  transform")
 
 #### Z-coordinate 
 We created GUI, source here
