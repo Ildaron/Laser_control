@@ -45,11 +45,16 @@ In practice, the maximum deflection angle of the mirrors is set at the factory, 
 
 #### X,Y - coordinate 
 
-#### Z-coordinate theory
+#### Z-coordinate 
+#### Z - coordinate practice 
+
+
+### Determining the angle of galvanometer mirror
+### angle of galvanometer mirror theory
 The laser beam obeys all the optical laws of physics, therefore, depending on the design of the galvanometer, the required angle of inclination of the mirror – α, can be calculated through the geometrical formulas. In our case, through the tangent of the angle α, where it is equal to the ratio of the opposing side – X(Y) (position calculated by deep learning) to the adjacent side - Z (calculated by stereo vision).
   ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/Z_position.bmp "general view")  
 
-#### Z - coordinate practice 
+### angle of galvanometer mirror practice
 ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/z_practice.bmp "general view")  
  
 ### Demonstrations
