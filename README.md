@@ -7,6 +7,7 @@ Here I will post information for creating a laser device. I provide this informa
 -  [General information](https://github.com/Ildaron/Laser_control#general-information)    
 -  [Dimensions](https://github.com/Ildaron/Laser_control#dimensions)    
 -  [Galvanometer setting](https://github.com/Ildaron/Laser_control#galvanometer-setting)
+-  [Determining the coordinates of an object](https://github.com/Ildaron/Laser_control/blob/master/README.md#determining-the-coordinates-of-an-object)
 -  [Demonstrations](https://github.com/Ildaron/Laser_control#demonstrations)
 -  [Publication and Citation](https://github.com/Ildaron/Laser_control#publication-and-citation)    
 -  [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
