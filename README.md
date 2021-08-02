@@ -5,6 +5,7 @@ Here I will post information for creating a laser device. I provide this informa
 -  [A warning!!](https://github.com/Ildaron/Laser_control#a-warning)
 -  [How It Works](https://github.com/Ildaron/Laser_control/blob/master/README.md#how-it-works)   
 -  [General information](https://github.com/Ildaron/Laser_control#general-information)    
+-  [Galvanometer setting](https://github.com/Ildaron/Laser_control#galvanometer-setting)
 -  [Demonstrations](https://github.com/Ildaron/Laser_control#demonstrations)
 -  [Publication and Citation](https://github.com/Ildaron/Laser_control#publication-and-citation)    
 -  [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
