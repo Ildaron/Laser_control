@@ -39,6 +39,8 @@ In practice, the maximum deflection angle of the mirrors is set at the factory, 
  c - lower position - 00 for y mirror;   
  d - upper position - 250 for y mirror;  
  
+### Determining the coordinates of an object
+ 
  
 ### Demonstrations
 In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.  
