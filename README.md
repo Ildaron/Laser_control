@@ -32,7 +32,7 @@ Single board computer to processes the digital signal from the camera and determ
 1 - PI cameras, 2 - galvanometer, 3 - Jetson nano, 4 - adjusting the position to the object, 5 - laser device, 6 - power supply, 7 - galvanometer driver boards, 8 - analog conversion boards  
 
 
-### Galvanometer setting 
+#### Galvanometer setting 
 In practice, the maximum deflection angle of the mirrors is set at the factory, but before use, it is necessary to check, for example, according to the documentation, our galvanometer had a step width of 30, but as it turned out we have only 20
 ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/galv_angle.bmp "general view")  
  Maximum and minimum positions of galvanometer mirrors:   
@@ -50,11 +50,11 @@ In practice, the maximum deflection angle of the mirrors is set at the factory, 
 
 
 ### Determining the angle of galvanometer mirror
-### angle of galvanometer mirror theory
+#### angle of galvanometer mirror theory
 The laser beam obeys all the optical laws of physics, therefore, depending on the design of the galvanometer, the required angle of inclination of the mirror – α, can be calculated through the geometrical formulas. In our case, through the tangent of the angle α, where it is equal to the ratio of the opposing side – X(Y) (position calculated by deep learning) to the adjacent side - Z (calculated by stereo vision).
  ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/Z_position.bmp "general view")  
 
-### angle of galvanometer mirror practice
+#### angle of galvanometer mirror practice
 ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/z_practice.bmp "general view")  
  
 ### Demonstrations
