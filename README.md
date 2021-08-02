@@ -45,11 +45,12 @@ In practice, the maximum deflection angle of the mirrors is set at the factory, 
 
 #### X,Y - coordinate 
 
-#### Z -coordinate 
+#### Z -coordinate theory
 The laser beam obeys all the optical laws of physics, therefore, depending on the design of the galvanometer, the required angle of inclination of the mirror – α, can be calculated through the geometrical formulas. In our case, through the tangent of the angle α, where it is equal to the ratio of the opposing side – X(Y) (position calculated by deep learning) to the adjacent side - Z (calculated by stereo vision).
   ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/Z%20position.bmp "general view")  
 
-
+#### Z - coordinate practice 
+![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/z%20practice.bmp "general view")  
  
 ### Demonstrations
 In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.  
