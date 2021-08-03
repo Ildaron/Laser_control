@@ -24,7 +24,7 @@ My strong recommendation - don't use the power laser! I recommend making a devic
 To detect x,y coordinates use any preferred instruments, we used initially Haar cascades in RaspberryPI after that yolov4-tiny in Jetson nano.
 For Y coordinates - stereo vision.    
 Calculation necessary value for the angle of mirrors.    
-RaspberryPI/JetsonNano by SPI sends a command for galvanometer via DAC mcp4922. ([here](https://github.com/Ildaron/Laser_control/tree/master/2.Jetson_code/2.1_mirror_control) here). From mcp4922 bibolar analog signal go to amplifair. Finally, we have -12 and + 12 V for control positions of the mirror.       
+RaspberryPI/JetsonNano by SPI sends a command for galvanometer via DAC mcp4922. ([here](https://github.com/Ildaron/Laser_control/tree/master/2.Jetson_code/2.1_mirror_control)). From mcp4922 bibolar analog signal go to amplifair. Finally, we have -12 and + 12 V for control positions of the mirror.       
 
 #### General information 
 The principle of operation  
