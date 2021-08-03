@@ -24,8 +24,7 @@ My strong recommendation - don't use the power laser! I recommend making a devic
 To detect x,y coordinates use any preferred instruments, we used initially Haar cascades in RaspberryPI after that yolov4-tiny in Jetson nano.
 For Y coordinates - stereo vision.  
 Calculation necessery valyu for angle of mirrows.  
-RaspberryPI/JetsonNano by SPI send command for galvanometer via DAC mcp4922. (Electrical scheme here)  
-Connect with hext electrica scheme   
+RaspberryPI/JetsonNano by SPI send command for galvanometer via DAC mcp4922. (Electrical scheme here). From mcp4922 bibolar analog signal go to amplifair. Finally we have -12 and + 12 V for control posions of mirrow.     
 
 #### General information 
 The principle of operation  
