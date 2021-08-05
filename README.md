@@ -1,4 +1,4 @@
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Laser%20for%20%20control%20mosquito%20%20and%20any%20insect%20&url=https://github.com/Ildaron/Laser_control/design-blocks&via=froala&hashtags=bootstrap,design,templates,blocks,developers)
+[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Laser%20for%20%20control%20mosquitoes%20%20and%20any%20insect%20&url=https://github.com/Ildaron/Laser_control/design-blocks&via=froala&hashtags=laser,mosquitoes,python,opensource)
 
 # Laser device for neutralizing - mosquitoes, weeds and pests (in progress) 
 Here I will post information for creating a laser device. I provide this information only for entertainment purposes.
