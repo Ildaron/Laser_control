@@ -1,7 +1,7 @@
 
-[![Hardware demonstrations](https://img.shields.io/badge/Licence-FREE-blue)](https://github.com/Ildaron/Laser_control/blob/master/license.txt)    
 
-# Laser device for neutralizing - mosquitoes, weeds and pests (in progress) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Laser%20for%20%20control%20mosquitoes%20%20and%20any%20insect%20&url=https://github.com/Ildaron/Laser_control&hashtags=laser,mosquitoes,python,opensource)  
+
+# Laser device for neutralizing - mosquitoes, weeds and pests (in progress) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Laser%20for%20%20control%20mosquitoes%20%20and%20any%20insect%20&url=https://github.com/Ildaron/Laser_control&hashtags=laser,mosquitoes,python,opensource) %20 [![Hardware demonstrations](https://img.shields.io/badge/Licence-FREE-blue)](https://github.com/Ildaron/Laser_control/blob/master/license.txt)      
 Here I will post information for creating a laser device.%20%20 
 
   ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/General_View..jpg "general view")  
