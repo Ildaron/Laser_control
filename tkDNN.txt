@@ -1,9 +1,0 @@
-https://github.com/ceccocats/tkDNN
-https://github.com/AlexeyAB/darknet
-
-Dependencies for tkDNN                                           Проверка
-CUDA 10.0                                                        cat /usr/local/cuda/version.txt
-CUDNN 7.603                                                          /usr/local/cudnn
-TENSORRT 6.01                                                        dpkg -l | grep nvinfer
-OPENCV 3.4
-yaml-cpp 0.5.2 (sudo apt install libyaml-cpp-dev)
