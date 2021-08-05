@@ -1,3 +1,6 @@
+<text x="435" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="750">Developed by</text>
+<text x="435" y="140" transform="scale(.1)" textLength="750">Developed by</text>
+
 
 # Laser device for neutralizing - mosquitoes, weeds and pests (in progress) [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Laser%20for%20%20control%20mosquitoes%20%20and%20any%20insect%20&url=https://github.com/Ildaron/Laser_control&hashtags=laser,mosquitoes,python,opensource)  
 Here I will post information for creating a laser device. 
