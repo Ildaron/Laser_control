@@ -6,7 +6,7 @@
 [![Hardware demonstrations](https://img.shields.io/badge/Licence-FREE-blue)](https://github.com/Ildaron/Laser_control/blob/master/license.txt)      
 
 <a href="https://youtu.be/2BKtM5cxOik">
- <img alt="youtube views" src="https://github-readme-youtube-stats.herokuapp.com/views/index.php?id=[UCKAITLsoIoWPPx36NdZI7LA]&key=[YOUR API KEY]"/>
+ <img alt="youtube views" src="https://github-readme-youtube-stats.herokuapp.com/views/index.php?id=[https://youtu.be/2BKtM5cxOik]&key=[YOUR API KEY]"/>
 </a>
 
 Here I will post information for creating a laser device.
