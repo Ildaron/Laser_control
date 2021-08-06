@@ -5,8 +5,8 @@
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Laser%20for%20%20control%20mosquitoes%20%20and%20any%20insect%20&url=https://github.com/Ildaron/Laser_control&hashtags=laser,mosquitoes,python,opensource)  
 [![Hardware demonstrations](https://img.shields.io/badge/Licence-FREE-blue)](https://github.com/Ildaron/Laser_control/blob/master/license.txt)      
 
-<a href="https://www.youtube.com/channel/[YOUR CHANNEL ID]">
- <img alt="youtube views" src="https://github-readme-youtube-stats.herokuapp.com/views/index.php?id=[YOUR CHANNEL ID]&key=[YOUR API KEY]"/>
+<a href="https://www.youtube.com/channel/[UCKAITLsoIoWPPx36NdZI7LA]">
+ <img alt="youtube views" src="https://github-readme-youtube-stats.herokuapp.com/views/index.php?id=[UCKAITLsoIoWPPx36NdZI7LA]&key=[YOUR API KEY]"/>
 </a>
 
 Here I will post information for creating a laser device.
