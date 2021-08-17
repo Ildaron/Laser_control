@@ -59,7 +59,7 @@ In practice, the maximum deflection angle of the mirrors is set at the factory, 
 ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/detect_moment.bmp "Example of result for Fast Fourier  transform")
 
 #### Z-coordinate 
-We created GUI, source [here](https://github.com/Ildaron/OpenCV-stereovision-tuner-for-windows)
+We created GUI, source [here](https://github.com/Ildaron/OpenCV-stereovision-tuner-for-windows).
 At the expense of computer vision, the position of the object in the X, Y plane is determined - based on which its ROI area is taken. Then we use stereo vision to compile a depth map and for a given ROI with the NumPy library tool - np.average we calculated the average value for the pixels of this area, which will allow us to calculate the distance to the object.  
 ![alt tag](https://github.com/Ildaron/OpenCV-stereovision-tuner-for-windows/blob/master/pic.2.bmp "Example of result for Fast Fourier  transform")
 
