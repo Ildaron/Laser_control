@@ -29,10 +29,10 @@ We can develop additional security systems, such as human detection, audio senso
 My strong recommendation - don't use the power laser! I recommend making a device that will track an object using a safe laser pointer.
 
 #### How It Works
-To detect x,y coordinates use any preferred instruments, we used initially Haar cascades in RaspberryPI after that yolov4-tiny in Jetson nano.
+To detect x,y coordinates initially we used Haar cascades in RaspberryPI after that yolov4-tiny in Jetson nano.
 For Y coordinates - stereo vision.    
 Calculation necessary value for the angle of mirrors.    
-RaspberryPI/JetsonNano by SPI sends a command for galvanometer via DAC mcp4922. Electrical scheme ([here](https://github.com/Ildaron/Laser_control/tree/master/2.Jetson_code/2.1_mirror_control)). From mcp4922 bibolar analog signal go to amplifair. Finally, we have -12 and + 12 V for control positions of the mirror.       
+RaspberryPI/JetsonNano by SPI sends a command for galvanometer via DAC mcp4922. Electrical scheme ([here](https://github.com/Ildaron/Laser_control/tree/master/2.Jetson_code/2.1_mirror_control)). From mcp4922 bibolar analog signal go to amplifair. Finally, we have -12 and + 12 V for control positions of the mirrors.       
 
 #### General information 
 The principle of operation  
@@ -42,7 +42,6 @@ Single board computer to processes the digital signal from the camera and determ
 ### Dimensions
 ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/dimension.bmp "general view")    
 1 - PI cameras, 2 - galvanometer, 3 - Jetson nano, 4 - adjusting the position to the object, 5 - laser device, 6 - power supply, 7 - galvanometer driver boards, 8 - analog conversion boards  
-
 
 #### Galvanometer setting 
 In practice, the maximum deflection angle of the mirrors is set at the factory, but before use, it is necessary to check, for example, according to the documentation, our galvanometer had a step width of 30, but as it turned out we have only 20
