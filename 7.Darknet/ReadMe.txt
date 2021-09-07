@@ -21,3 +21,11 @@ python labelImg.py
 3. Yolo-tiny costum.cng
 здемы мы в двух метсах изменнили класс с 80 до 1
 и изменели количетсво слоев у послденего выхода, сделали 
+
+4. start video
+
+
+./darknet detector demo cfg/obj.data cfg/yolov4-tiny-custom.cfg yolov4-tiny-custom_best.weights test.mp4 -benchmark
+
+
+
