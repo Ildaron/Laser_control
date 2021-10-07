@@ -9,13 +9,13 @@ python labelImg.py
 
 2. Runtime -GPU
 
-2. 1. Двигаемся в папку
+2. 1. move to folder
 %cd /content/drive/MyDrive/yolov4/darknet
 
-2. 2. Получить разрешение на работу в папке
+2. 2.Get access for folder
 !chmod +x ./darknet
 
-2. 3. Запуск train
+2. 3. Start train
 ! ./darknet detector train data/obj.data yolov4-tiny-custom.cfg yolov4-tiny.conv.29 -dont_show -map
 
 3. Yolo-tiny costum.cng
