@@ -74,12 +74,12 @@ The laser beam obeys all the optical laws of physics, therefore, depending on th
 Fos single boards computers  still actual problem with FPS.
 For one object with Jetson was reached the nex result for  Yolov4-tiny model 
 
-Framework                  FPS  
-Keras                      4-5 
-Darknet                    12-15  
-Darknet Tensor RT          24-27  
-Darket DeepStream          23-26  
-tkDNN                      30-35  
+Framework                    
+with Keras: 4-5 FPS 
+with Darknet: 12-15 FPS   
+with Darknet Tensor RT: 24-27 FPS    
+with Darket DeepStream: 23-26 FPS  
+with tkDNN: 30-35 FPS    
 
 ### Demonstrations
 In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.  
