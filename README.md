@@ -63,6 +63,8 @@ We created GUI, source [here](https://github.com/Ildaron/OpenCV-stereovision-tun
 At the expense of computer vision, the position of the object in the X, Y plane is determined - based on which its ROI area is taken. Then we use stereo vision to compile a depth map and for a given ROI with the NumPy library tool - np.average we calculated the average value for the pixels of this area, which will allow us to calculate the distance to the object.  
 ![alt tag](https://github.com/Ildaron/OpenCV-stereovision-tuner-for-windows/blob/master/pic.2.bmp "Example of result for Fast Fourier  transform")
 
+You can find more detail in the published paper in preprint - [Low-Cost Stereovision System (Disparity Map) For Few Dollars](https://www.preprints.org/manuscript/202104.0282/v1)     
+
 ### Determining the angle of galvanometer mirror
 #### angle of galvanometer mirror theory
 The laser beam obeys all the optical laws of physics, therefore, depending on the design of the galvanometer, the required angle of inclination of the mirror – α, can be calculated through the geometrical formulas. In our case, through the tangent of the angle α, where it is equal to the ratio of the opposing side – X(Y) (position calculated by deep learning) to the adjacent side - Z (calculated by stereo vision).  
