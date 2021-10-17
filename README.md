@@ -83,7 +83,7 @@ with Darknet Tensor RT: 24-27 FPS
 with Darknet DeepStream: 23-26 FPS    
 with tkDNN: 30-35 FPS
 
-You can find more detail in the published paper in arxiv - [Increasing FPS for single board computers and embedded computers in 2021 (Jetson nano and YOVOv4-tiny). Practice and review. Details]( https://arxiv.org/abs/2107.12148)     
+You can find more detail in the published paper in arxiv - [Increasing FPS for single board computers and embedded computers in 2021 (Jetson nano and YOVOv4-tiny). Practice and review]( https://arxiv.org/abs/2107.12148)     
 
 
 ### Demonstrations
