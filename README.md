@@ -80,6 +80,8 @@ with Darknet: 12-15 FPS
 with Darknet Tensor RT: 24-27 FPS      
 with Darknet DeepStream: 23-26 FPS    
 with tkDNN: 30-35 FPS      
+Increasing FPS for single board computers and embedded computers in 2021 (Jetson nano and YOVOv4-tiny). Practice and review. Details [here]( https://arxiv.org/abs/2107.12148)     
+
 
 ### Demonstrations
 In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.  
