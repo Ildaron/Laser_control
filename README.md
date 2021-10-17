@@ -78,7 +78,7 @@ Framework
 with Keras: 4-5 FPS   
 with Darknet: 12-15 FPS     
 with Darknet Tensor RT: 24-27 FPS      
-with Darket DeepStream: 23-26 FPS    
+with Darknet DeepStream: 23-26 FPS    
 with tkDNN: 30-35 FPS      
 
 ### Demonstrations
