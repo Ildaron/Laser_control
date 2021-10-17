@@ -18,6 +18,7 @@ Here I will post information for creating a laser device.
 -  [Galvanometer setting](https://github.com/Ildaron/Laser_control#galvanometer-setting)
 -  [Determining the coordinates of an object](https://github.com/Ildaron/Laser_control/blob/master/README.md#determining-the-coordinates-of-an-object)
 -  [Demonstrations](https://github.com/Ildaron/Laser_control#demonstrations)
+-  [We need more FPS](https://github.com/Ildaron/Laser_control#we-need-more-fps)
 -  [Publication and Citation](https://github.com/Ildaron/Laser_control#publication-and-citation)    
 -  [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
 
@@ -71,8 +72,7 @@ The laser beam obeys all the optical laws of physics, therefore, depending on th
 ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/z_practice.bmp "general view")  
 
 #### We need more FPS
-Fos single boards computers  still actual problem with FPS.
-For one object with Jetson was reached the nex result for  Yolov4-tiny model 
+For single boards, computers are actual problems with FPS. For one object with Jetson was reached the next result for the Yolov4-tiny model.  
 
 Framework                    
 with Keras: 4-5 FPS 
