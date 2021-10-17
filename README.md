@@ -69,7 +69,18 @@ The laser beam obeys all the optical laws of physics, therefore, depending on th
 
 #### angle of galvanometer mirror practice  
 ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/z_practice.bmp "general view")  
- 
+
+#### We need more FPS
+Fos single boards computers  still actual problem with FPS.
+For one object with Jetson was reached the nex result for  Yolov4-tiny model 
+
+Framework                  FPS  
+Keras                      4-5 
+Darknet                    12-15  
+Darknet Tensor RT          24-27  
+Darket DeepStream          23-26  
+tkDNN                      30-35  
+
 ### Demonstrations
 In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.  
 [![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/demonstration.bmp)](https://www.youtube.com/watch?v=2BKtM5cxOik)    
