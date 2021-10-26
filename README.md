@@ -19,6 +19,7 @@ Here I will post information for creating a laser device.
 -  [Determining the coordinates of an object](https://github.com/Ildaron/Laser_control/blob/master/README.md#determining-the-coordinates-of-an-object)
 -  [Demonstrations](https://github.com/Ildaron/Laser_control#demonstrations)
 -  [We need more FPS](https://github.com/Ildaron/Laser_control#we-need-more-fps)
+-  [Security questions](https://github.com/Ildaron/Laser_control/blob/master/README.md#security-questions)
 -  [Publication and Citation](https://github.com/Ildaron/Laser_control#publication-and-citation)    
 -  [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
 
