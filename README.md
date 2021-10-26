@@ -95,11 +95,11 @@ In this video - a laser (the red point) tries to catch a yellow LED.  It is an a
 
 ### Security questions
 An additional device - a security module that will turn off the laser:  
-- use additional cameras to fix people  
-- audio sensors to capture voice and noise
--  to mechanically shoot down the laser  
--  to use a thermal camera if there is any warm effect, turn it off - this is probably also possible to protect against fires consider not to overheat.
--   And teach the system to record the process of laser reflection from any random glass or other mirror surfaces (maybe before turning on the power laser - for checking turn on the simple laser). Put datasets in open access through publications, as well as experiments with camera focusing, etc. 
+- Use additional cameras to fix people  
+- Audio sensors to capture voice and noise
+- To mechanically shoot down the laser  
+- To use a thermal camera if there is any warm effect, turn it off - this is probably also possible to protect against fires consider not to overheat.
+- Teach the system to record the process of laser reflection from any random glass or other mirror surfaces (maybe before turning on the power laser - for checking turn on the simple laser). Put datasets in open access through publications, as well as experiments with camera focusing, etc. 
 
 
 #### Publication and Citation 
