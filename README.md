@@ -99,7 +99,7 @@ An additional device - a security module that will turn off the laser:
 - Audio sensors to capture voice and noise
 - To mechanically shoot down the laser  
 - To use a thermal camera if there is any warm effect, turn it off - this is probably also possible to protect against fires consider not to overheat.
-- Teach the system to record the process of laser reflection from any random glass or other mirror surfaces (maybe before turning on the power laser - for checking turn on the simple laser). Put datasets in open access through publications, as well as experiments with camera focusing, etc. 
+- Teach the system to record the process of laser reflection from any random glass or other mirror surfaces (maybe before turning on the power laser - for checking turn on the simple laser). 
 
 
 #### Publication and Citation 
