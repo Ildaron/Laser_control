@@ -107,7 +107,8 @@ An additional device - a security module that will turn off the laser:
   availabe [here]( https://www.researchgate.net/publication/349226713_Machine_vision_for_low-cost_remote_control_of_mosquitoes_by_power_laser)    
 - Rakhmatulin I, Andreasen C. (2020). A Concept of a Compact and Inexpensive Device for Controlling Weeds with Laser Beams. Agronomy  
   availabe [here](https://www.mdpi.com/2073-4395/10/10/1616)
-  - Rakhmatuiln I, Kamilaris A, Andreasen C. Deep Neural Networks to Detect Weeds from Crops in Agricultural Environments in Real-Time: A Review. Remote Sensing. 2021;   13(21):4486. https://doi.org/10.3390/rs13214486  
+- Rakhmatuiln I, Kamilaris A, Andreasen C. Deep Neural Networks to Detect Weeds from Crops in Agricultural Environments in Real-Time: A Review. Remote Sensing. 2021;   13(21):4486. https://doi.org/10.3390/rs13214486
+
 
 #### Contacts
 For any questions write to me by mail - ildar.o2010@yandex.ru  
