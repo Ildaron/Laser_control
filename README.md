@@ -20,6 +20,7 @@ Here I will post information for creating a laser device.
 -  [Demonstrations](https://github.com/Ildaron/Laser_control#demonstrations)
 -  [We need more FPS](https://github.com/Ildaron/Laser_control#we-need-more-fps)
 -  [Security questions](https://github.com/Ildaron/Laser_control/blob/master/README.md#security-questions)
+-  [Discussion and Future work](https://github.com/Ildaron/Laser_control#contacts)  
 -  [Publication and Citation](https://github.com/Ildaron/Laser_control#publication-and-citation)    
 -  [Contacts](https://github.com/Ildaron/Laser_control#contacts)    
 
@@ -101,6 +102,13 @@ An additional device - a security module that will turn off the laser:
 - To use a thermal camera if there is any warm effect, turn it off - this is probably also possible to protect against fires consider not to overheat.
 - Teach the system to record the process of laser reflection from any random glass or other mirror surfaces (maybe before turning on the power laser - for checking turn on the simple laser). 
 
+### Discussion and Future work
+## Research laser effect
+Use a lower the laser power as much as possible.  The laser should burn the wings of mosquitos but should be safe for the eyes. That is to do research on the topic of laser power, laser wavelength, and their efficiency for mosquitos. This is for safety, the lower the power, the better.
+## Remote control
+Laser control on a stationary computer. The IP camera installed next to the laser only transmits video to the computer, and the computer already analyzes it on a powerful processor video card and transmits back coordinates for the laser via Wi-Fi. In this case, we can use very powerful computing processors.
+## PCB boards
+Make the device completely on our electronic boards. It is a galvanometer for a laser show and changes positions 20,000 times per second, which is why there are such powerful and big drivers for motors. It is useful to make a small PCB board to change the position of the laser only 200 times per second. In finally, so to speak, the pocket version.
 
 #### Publication and Citation 
 - Ildar, R. (2021). Machine vision for low-cost remote control of mosquitoes by power laser. Journal of Real-Time Image Processing   
