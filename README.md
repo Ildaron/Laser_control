@@ -104,6 +104,9 @@ An additional device - a security module that will turn off the laser:
 - Teach the system to record the process of laser reflection from any random glass or other mirror surfaces (maybe before turning on the power laser - for checking turn on the simple laser). 
 
 ### Discussion and Future work
+We can try light up the room to reflect the mosquito - and then use the library functions - OpenCV in range or haar cascades to detect the object. With a bright background, they will be detected without problems. This is for low-power single-board computers - Raspberry, Orange, Banana, etc.
+For jetson nano, we can use yolov4-tiny which, using the tkDNN library, is able to give 30-35 FPS
+
 #### Research laser effect
 Use a lower the laser power as much as possible.  The laser should burn the wings of mosquitos but should be safe for the eyes. That is to do research on the topic of laser power, laser wavelength, and their efficiency for mosquitos. This is for safety, the lower the power, the better.
 #### Remote control
