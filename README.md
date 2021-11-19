@@ -93,7 +93,7 @@ In this video - a laser (the red point) tries to catch a yellow LED.  It is an a
 [![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/demonstration.bmp)](https://www.youtube.com/watch?v=2BKtM5cxOik)    
 
 in the video on the monitor, you can see, how the YoloV4tiny detected a cockroach and after that - turn on the laser and send a signal to the galvanometer to set the position of the mirror. When using a more powerful laser, the efficiency is much higher. But the video cannot be shot with a powerful laser, the light is too bright.   
-[![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/coac.bmp)](https://youtu.be/VwZunUqHbiU)   
+[![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/coac1.bmp)](https://youtu.be/VwZunUqHbiU)   
 
 ### Security questions
 An additional device - a security module that will turn off the laser:  
