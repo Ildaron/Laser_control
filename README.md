@@ -92,7 +92,7 @@ You can find more detail in the published paper in arxiv - [Increasing FPS for s
 In this video - a laser (the red point) tries to catch a yellow LED.  It is an adjusting process but in fact, instead, a yellow LED can be a mosquito, and instead, the red laser can be a powerful laser.  
 [![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/demonstration.bmp)](https://www.youtube.com/watch?v=2BKtM5cxOik)    
 
-in the video on the monitor, you can see, how the YoloV4tiny detected a cockroach and after that - turn on the laser and send a signal to the galvanometer to set the position of the mirror. When using a more powerful laser, the efficiency is much higher. But the video cannot be shot with a powerful laser, the light is too bright.   
+In the video below, you can see, how the YoloV4tiny detected a cockroach and after that - turn on the laser and send a signal to the galvanometer to set the position of the mirror. When using a more powerful laser, the efficiency is much higher. But the video cannot be shot with a powerful laser, the light is too bright.   
 [![Hardware demonstrations](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/coac1.bmp)](https://youtu.be/VwZunUqHbiU)   
 
 ### Security questions
