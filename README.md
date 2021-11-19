@@ -9,7 +9,7 @@
 
 Here I will post information for creating a laser device.
 
-  ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/General_View..jpg "general view")  
+  ![alt tag](https://github.com/Ildaron/Laser_control/blob/master/Supplementary%20files/Gen_view.JPG "general view")  
 
 -  [A warning!!](https://github.com/Ildaron/Laser_control#a-warning)
 -  [How It Works](https://github.com/Ildaron/Laser_control/blob/master/README.md#how-it-works)   
