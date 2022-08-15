@@ -120,5 +120,5 @@ Make the device completely on our electronic boards. It is a galvanometer for a 
 
 
 #### Contacts
-For any questions write to me by mail - ildar.o2010@yandex.ru  
+For any questions write to me by mail - ildarr2016@gmail.com
 
