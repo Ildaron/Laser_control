@@ -1,5 +1,6 @@
-Sponsor this project - paypal - ildarr2016@gmail.com 
-do not repeat, dangerous, you can only use laser pointer - 1mW!  
+Sponsor this project - paypal - ildarr2016@gmail.com   
+
+Do not repeat, dangerous, you can only use laser pointer - 1mW!  
 # Laser device for neutralizing - mosquitoes, asian hornet, weeds and pests (Open-source) 
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Laser%20for%20%20control%20mosquitoes%20%20and%20any%20insect%20&url=https://github.com/Ildaron/Laser_control&hashtags=laser,mosquitoes,python,opensource)  
 [![Hardware demonstrations](https://img.shields.io/badge/Licence-FREE-blue)](https://github.com/Ildaron/Laser_control/blob/master/license.txt)      
