@@ -118,7 +118,7 @@ Make the device completely on our electronic boards. It is a galvanometer for a 
 - Rakhmatulin I, Andreasen C. (2020). A Concept of a Compact and Inexpensive Device for Controlling Weeds with Laser Beams. Agronomy  
   availabe [here](https://www.mdpi.com/2073-4395/10/10/1616) https://doi.org/10.3390/agronomy10101616  
 - Rakhmatuiln I, Kamilaris A, Andreasen C. Deep Neural Networks to Detect Weeds from Crops in Agricultural Environments in Real-Time: A Review. Remote Sensing. 2021;   13(21):4486. https://doi.org/10.3390/rs13214486
-
+- Rakhmatuiln, I., Lihoreau, M., & Pueyo, J. (2022). Selective neutralisation and deterring of cockroaches with laser automated by machine vision. Oriental Insects, https://doi.org/10.1080/00305316.2022.2121777  
 
 #### Contacts
 For any questions write to me by mail - ildarr2016@gmail.com
