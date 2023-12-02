@@ -114,9 +114,9 @@ Make the device completely on our electronic boards. It is a galvanometer for a 
 
 #### Publication and Citation 
 - Ildar, R. (2021). Machine vision for low-cost remote control of mosquitoes by power laser. Journal of Real-Time Image Processing   
-  availabe [here]( https://www.researchgate.net/publication/349226713_Machine_vision_for_low-cost_remote_control_of_mosquitoes_by_power_laser) https://doi.org/10.1007/s11554-021-01079-x      
+  available [here]( https://www.researchgate.net/publication/349226713_Machine_vision_for_low-cost_remote_control_of_mosquitoes_by_power_laser) https://doi.org/10.1007/s11554-021-01079-x      
 - Rakhmatulin I, Andreasen C. (2020). A Concept of a Compact and Inexpensive Device for Controlling Weeds with Laser Beams. Agronomy  
-  availabe [here](https://www.mdpi.com/2073-4395/10/10/1616) https://doi.org/10.3390/agronomy10101616  
+  available [here](https://www.mdpi.com/2073-4395/10/10/1616) https://doi.org/10.3390/agronomy10101616  
 - Rakhmatuiln I, Kamilaris A, Andreasen C. Deep Neural Networks to Detect Weeds from Crops in Agricultural Environments in Real-Time: A Review. Remote Sensing. 2021;   13(21):4486. https://doi.org/10.3390/rs13214486
 - Rakhmatuiln, I., Lihoreau, M., & Pueyo, J. (2022). Selective neutralisation and deterring of cockroaches with laser automated by machine vision. Oriental Insects, https://doi.org/10.1080/00305316.2022.2121777  
 
